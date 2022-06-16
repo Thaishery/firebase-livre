@@ -1,0 +1,11 @@
+{
+    "livres": [{
+    "titre": "MyFirstBook",
+    "auteur": "SomeOne is Auth",
+    "description": "1er livre de SomeOne is Auth"
+    }, {
+    "titre": "MySecondBook",
+    "auteur": "SomeOne is Auth",
+    "description": "2eme livre de SomeOne is Auth"
+    }]
+    }

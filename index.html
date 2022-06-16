@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase CRUD Javascript</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+
+    <h1>Firebase CRUD with Javascript
+        <br/><small><em>Livre App</em></small>
+    </h1>
+
+<!-- add livre module -->
+<section id="add-livre-module"> <button id="open-add-livre-form-btn">+</button>
+    <form>
+    <h2>Add Livre</h2> titre:<br> 
+    <input type='text' data-key='titre' class='livre-input'><br> 
+    auteur:<br> 
+    <input   type='text' data-key='auteur' class='livre-input'><br> 
+    description:<br> 
+    <input    type='text' data-key='description'    class='livre-input'><br> 
+    <button type='button' id="add-livre-btn">add    livre</button>
+    </form>
+    </section>
+<!-- edit livre module -->
+<section id="edit-livre-module">
+    <form>
+    <h2>Edit livre</h2> 
+    <input type="hidden" class="edit-livreid"> titre:<br>
+    <input type='text' data-key='titre'    class='edit-livre-input'><br> auteur:<br> 
+    <input type='text' data-key='auteur' class='edit-livre-input'><br>
+    description:<br> 
+    <input type='text' data-key='description' class='edit-livre-input'><br> <button type='button'
+    id="edit-livre-btn">save</button>
+    </form>
+    </section>
+
+
+    <!-- show livre module -->
+    <ul id="livre-list"></ul>
+    <div id="livre-detail"></div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+
+</html>
